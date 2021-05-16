@@ -1,0 +1,21 @@
+h1,
+p {
+  text-align: center;
+}
+
+ol:hover {
+  background-color: aqua;
+}
+
+li:hover {
+  background-color: aliceblue;
+}
+
+li:active {
+  color: rgb(10, 223, 10);
+}
+
+ul,
+ol {
+  list-style: none;
+}
