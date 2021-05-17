@@ -14,12 +14,11 @@ div:nth-child(5):hover {
   border: solid grey;
 }
 div:nth-child(3) {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 div:nth-child(odd) {
-    font-style: italic;
-    
+  font-style: italic;
 }
 
 .verde {
