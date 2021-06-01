@@ -70,7 +70,7 @@
     let divCenter = document.createElement("div");
     divCenter.className = "center-content";
     divMain.appendChild(divCenter);
-    
+
     let p = document.createElement("p");
     p.innerHTML = "Rei Paixão"
     divCenter.appendChild(p);
@@ -91,22 +91,22 @@
     let naoOrd = document.createElement("ul");
     divRight.appendChild(naoOrd);
     let array = ['um', 'dois', 'três', '4uatro', '5inco', 'seis', '7ete', '8ito', 'nove', 'dez'];
-    for (let index = 0; index <= array.length-1; index += 1){
+    for (let index = 0; index <= array.length - 1; index += 1) {
       let li = document.createElement("li");
       li.innerHTML = array[index];
       naoOrd.appendChild(li);
     }
-    for (let index2 = 0; index2 < 3; index2 += 1){
-    let h3 = document.createElement("h3");
-    divMain.appendChild(h3);
-  }
-  let title = document.getElementsByTagName("h1")[0];
-  title.className = "title";
+    for (let index2 = 0; index2 < 3; index2 += 1) {
+      let h3 = document.createElement("h3");
+      divMain.appendChild(h3);
+    }
+    let title = document.getElementsByTagName("h1")[0];
+    title.className = "title";
 
-  for (let index3 = 0; index3 < 3; index3 += 1){
-    let h3 = document.querySelectorAll("h3")[index3];
-    h3.className = "description";
-  }
+    for (let index3 = 0; index3 < 3; index3 += 1) {
+      let h3 = document.querySelectorAll("h3")[index3];
+      h3.className = "description";
+    }
     divMain.removeChild(divLeft);
 
     divRight.style.marginRight = "auto";
@@ -115,7 +115,7 @@
 
     naoOrd.lastChild.remove();
     naoOrd.lastChild.remove();
-</script>
+  </script>
 </body>
 
 </html>
