@@ -79,7 +79,37 @@
     divLeft.className = "left-content";
     divMain.appendChild(divLeft);
 
-    
+    let divRight = document.createElement("div");
+    divRight.className = "right-content";
+    divMain.appendChild(divRight);
+
+    let imageElem = document.createElement("img");
+    imageElem.src = "https://picsum.photos/200";
+    imageElem.className = "small-image";
+    divLeft.appendChild(imageElem);
+
+    let naoOrd = document.createElement("ul");
+    divRight.appendChild(naoOrd);
+    let array = ['um', 'dois', 'três', '4uatro', '5inco', 'seis', '7ete', '8ito', 'nove', 'dez'];
+    for (let index = 0; index <= array.length-1; index += 1){
+      let li = document.createElement("li");
+      li.innerHTML = array[index];
+      naoOrd.appendChild(li);
+    }
+
+    for (let index2 = 0; index2 < 3; index2 += 1){
+    let h3 = document.createElement("h3");
+    divMain.appendChild(h3);
+  }
+  
+
+
+
+
+
+
+
+
 
 
 
